@@ -21,7 +21,7 @@
                </Label>
             </children>
          </Pane>
-         <Button prefHeight="40.0" prefWidth="100.0" text="Clientes" />
+         <Button onAction="#carregarOperador" prefHeight="40.0" prefWidth="100.0" text="Operador" />
          <Button prefHeight="40.0" prefWidth="100.0" text="Produtos" />
          <Button prefHeight="40.0" prefWidth="100.0" text="Vendas" />
          <Button prefHeight="40.0" prefWidth="100.0" text="Nova Venda" />

@@ -54,6 +54,7 @@ public class App extends BaseAppNavigator {
     @Override
     public void registrarTelas() {
         registraTela("PRINCIPAL", new ScreenRegistryFXML(getClass(), "fxml/principal.fxml", (o)->new TelaPrincipal()));
+        registraTela("OPERADOR", new ScreenRegistryFXML(getClass(), "fxml/operador.fxml", (o)->new TelaPrincipal()));
         
         //REGISTRAR AS OUTRAS TELAS
 

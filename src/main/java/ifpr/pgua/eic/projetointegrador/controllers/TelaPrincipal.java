@@ -8,8 +8,8 @@ public class TelaPrincipal extends BaseController {
     
 
     @FXML
-    private void carregarClientes(){
-        App.changeScreenRegion("CLIENTES", BorderPaneRegion.CENTER);
+    private void carregarOperador(){
+        App.changeScreenRegion("OPERADOR", BorderPaneRegion.CENTER);
     }
 
     @FXML
